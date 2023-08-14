@@ -16,28 +16,80 @@ MoovDa에서는 영화 제목, 감독, 배우, 장르 등 다양한 정보를 �
 
 ## MoovDa Page View <br>
 
-- <b>Main Page</b>
+<br>
 
-![ezgif com-video-to-gif (1)](https://github.com/codestates-seb/seb44_main_020/assets/64067205/2ff34663-0d0f-45c2-bbde-85c5a8efd630) <br>
+- <b>Main</b>
+
+![메인페이지](https://github.com/codestates-seb/seb44_main_020/assets/64067205/4bf7259f-fbcd-4919-93f4-c3ff6895241e)
+
+<br>
+
+- <b>Login</b>
+
+![로그인 앤 마이페이지](https://github.com/codestates-seb/seb44_main_020/assets/64067205/e12ee450-0601-4988-b086-3ad2f15fd1e8)
+
+<br>
 
 
 
+- <b>Movie Search</b>
+
+![영화 필터 검색](https://github.com/codestates-seb/seb44_main_020/assets/64067205/f9a857d5-f3bb-4232-973d-08058432df4d)
+
+<br>
 
 
-- <b>Movie Search Page</b>
-- <b>Movie Detail Page</b>
-- <b>Member Detail Page</b>
-- <b>Question Page</b>
-- <b>Answer Page</b>
+- <b>Movie Detail</b>
 
-<br><br><br>
+![영화 상세](https://github.com/codestates-seb/seb44_main_020/assets/64067205/5e2a6cab-9b0c-4a0e-b8b8-acdb62529d7d)
+
+<br>
+
+
+- <b>Comment</b>
+
+![코멘트 작성](https://github.com/codestates-seb/seb44_main_020/assets/64067205/98bd7004-4b82-4811-a884-371f96a86195)
+
+<br>
+
+- <b>Comment Like</b>
+
+![코멘트 좋아요](https://github.com/codestates-seb/seb44_main_020/assets/64067205/8d6e7ae2-78d4-444f-bd99-676bbb952b19)
+
+<br>
+
+
+- <b>To Watch</b>
+
+![볼 영화 추가](https://github.com/codestates-seb/seb44_main_020/assets/64067205/d5d12ed7-c3c9-4750-8be5-fecdc94ac7e7)
+
+<br>
+
+
+- <b>Question</b>
+
+![질문 작성](https://github.com/codestates-seb/seb44_main_020/assets/64067205/3cd52e3e-1fe0-4a62-a5bf-64d481d2b40c)
+
+<br>
+
+- <b>Answer</b>
+
+![답변 작성](https://github.com/codestates-seb/seb44_main_020/assets/64067205/ac6e4783-5138-42e9-bde5-02d2ebc615a0)
+
+<br>
+
+
+<br><br>
 
 ## Team MoovDa <br>
+
+
 
 ### Frontend <br>
 
 - <b>전수빈</b> <br>
-회고 및 소감 작성해주세요.
+`잘 할 수 있을까?`
+처음 기획부터 개발, 배포까지 하는 건 처음이라 제한된 기간 안에 "과연 잘 할 수 있을까?" 라는 두려움을 가지고 시작했지만, 정신없이 프로젝트를 진행했더니 두려움이라는 감정 을 잊고 프로젝트를 마치게 되었다. 후회되는 부분이 정말 많았다. 첫번째는, 기획단계에서 이 정도면 기획 잘 했다!라고 생각했었지만, 전혀 그렇지 않았다. 기획에 있어서 시간을 투자한 만큼 리턴값이 나온다는 걸 프로젝트 중반에야 깨닫게 되었다. API 명세서라든지, 화면정의서, 백엔드 개발자분들과 더 많은 대화를 하고 진행했으면 개발 영역에서 시간을 더 많이 세이브 할 수 있었을 거 같다는 아쉬움이 정말 컸다. 두번째는, 팀장으로서 역할이였다. 회의록, 멘토링 신청, 과제 제출같은 부분은 당연히 팀장이 맡아서 해야한다고 생각을 했고 실천했지만, 중간 중간 늦게 멘토링을 신청한다던지, 과제 제출을 뒤늦게 제출 한다던지 이런 부분에 있어서 꼼꼼하게 하지 못해서 팀원분들께 죄송했다. 다음 프로젝트를 하게 된다면 이번 경험을 바탕으로 잘했다고 생각하는 건 유지하고 후회되는 부분은 수정해서 더 잘 할 자신이 생겼다!
 
 <details>
 <summary>전수빈 Worklog📜</summary>
@@ -45,12 +97,41 @@ MoovDa에서는 영화 제목, 감독, 배우, 장르 등 다양한 정보를 �
 
 <br>
 
- <b>Position</b> : Frontend
+<b>Position</b> : Frontend  
 
- <b>Stack</b> : Typescript, ReactJS, NextJS, Redux Toolkit, Styled Components
+<b>Stack</b> : Typescript, ReactJS, NextJS, Redux Toolkit, Styled Components  
 
- <b>Works</b> : 
+<b>Works</b> :
 
+1. 검색 페이지
+    * API response에 담겨오는 params를 필터에 맞게 변경
+        * 장르순, 국가순, 연령순, 별점순 필터 적용 
+    * Pagination
+        * 영화 포스터 5x2
+        * 다음, 이전 페이지 버튼
+        * 가지고있는 데이터에 맞게 페이지 갯수 적용
+    * 검색 기능 구현   *  검색창에 영화, 감독, 배우로 검색 가능 
+2. 로그인 페이지
+    * 구글 로그인 버튼
+        * Oauth2 구글 url로 이동
+    * 로그인 완료시 메인페이지로 이동 
+3. 헤더, 풋터
+    * 각 아이콘에 맞게 페이지 이동
+        * 로고 클릭 시 메인페이지 이동
+        * 검색버튼 클릭 시 검색페이지 이동
+        * 로그인 버튼 클릭 시 로그인 페이지 이동
+            * 로그인 완료 시 헤더에 로그아웃 아이콘으로 변경
+            * 로그아웃 아이콘 클릭 시 로그인 정보 삭제 후 로그인 아이콘으로 변경
+    * 헤더에 로그인 정보 저장
+    * 풋터에 팀원 깃헙 주소 url 연결
+4. Deployment
+    * 1차 배포 Vercel 
+        * 깃헙 dev 브런치에 연결 후 배포
+    * 2차 배포 AWS S3 
+        * HTTPS 이슈로 vercel에서 AWS S3로 변경
+    * 3차 배포 Vercel
+        * Next.js 정적파일로 build 이슈로 인해 다시 Vercel로 수정
+        * 깃헙 main 브런치에 자동배포 성공
 1. 
 
 
@@ -121,7 +202,7 @@ MoovDa에서는 영화 제목, 감독, 배우, 장르 등 다양한 정보를 �
 <br>
 
 - <b>강예현</b> <br>
-회고 및 소감 작성해주세요.
+`성장은 경험에서 나온다` 프로젝트를 다 마치고 나니 결과물에 대해 아쉬운 마음도 들지만, 그 과정에서 많은 것을 배웠고 다행히 성공적으로 배포까지 완료해서 기쁜 마음도 있습니다. 이번 경험을 통해 가장 크게 깨닫게 된 것은 탄탄한 기획이 프로젝트의 완성도와 질을 결정한다는 사실입니다. 완벽할 수는 없지만 최대한 많은 시간 고민하면서 프로젝트의 목표와 기능을 체계적으로 정립한다면, 나중에 발생할 수 있는 문제들을 예방하고 효과적으로 해결할 수 있음을 깨달았습니다. 또한 팀원 간의 원활한 소통이 중요하다는 것을 느낄 수 있었습니다. 중간에 발생한 작은 이슈들도 서로의 요구사항과 진행 상황을 지속적으로 공유하며 조율했던 결과, 배포에 성공할 수 있었던 것 같습니다. 팀 내 협업의 핵심이 어떤 것인지를 몸소 체감하게 되었습니다. 이 외에도 개인적으로 공식 문서의 활용 방법과 효율적인 검색 방법 등 많은 것을 배웠던 시간이었습니다. 끝까지 열정을 가지고 프로젝트에 임해준 팀원들 덕분에 잘 마무리할 수 있었고 협업에서 중요한 게 어떤 건지 많은 생각을 하게 해주었던 한 달이었다고 생각합니다.
 
 <details>
 <summary>강예현 Worklog📜</summary>
@@ -130,9 +211,49 @@ MoovDa에서는 영화 제목, 감독, 배우, 장르 등 다양한 정보를 �
 
  <b>Position</b> : Frontend
 
- <b>Stack</b> : 
+ <b>Stack</b> :  Typescript, NextJs, ReactJs, Redux toolkit, Styled Component
 
- <b>Works</b> : 
+ <b>Works</b> :
+
+1. 페이지 UI 구성 및 피그마 사용을 통한 프로토타입 구현 
+    * 영화 상세 페이지 초기 디자인
+    * 영화 코멘트 모달 
+    * 검색 페이지 초기 디자인 
+
+2. CRA -> NEXT.JS 마이그레이션 및 초기세팅
+
+3. 질문 리스트 페이지
+    * UI 디자인 수정
+    * 질문 컴포넌트를 만들어 여러 질문 조회 기능 구현
+    * 질문 리스트 페이지네이션(숫자 버튼) 적용해 한 페이지 당 질문 컴포넌트 10개씩 노출
+    * 추천 받기 버튼 클릭시 질문 작성 페이지로 이동
+
+4. 질문 작성 페이지
+    * UI 디자인 재구성
+    * 유효성 검사
+
+5. 질문 수정 페이지
+    * UI 디자인 재구성
+    * 유효성 검사
+
+6. 질문 상세 페이지
+    * UI 디자인 재구성
+    * 질문 컴포넌트 
+         * 수정/삭제 기능
+         * 사용자 본인에게만 수정/삭제 버튼 노출
+    * 답변 작성 컴포넌트
+         * 영화 검색 모달창에서 선택한 영화 정보 포함
+         * 영화 선택하기 클릭 시 영화 검색 모달창 노출
+    * 답변 컴포넌트
+         * 수정/삭제 기능
+         * 사용자 본인에게만 수정/삭제 버튼 노출
+    * 목록으로 이동하기 버튼 클릭시 질문 리스트 페이지로 이동
+
+7. 영화 검색 모달창
+    * UI 디자인 구성
+    * 영화 검색 기능 구현
+         * 영화 제목, 감독, 배우 검색 가능
+    * 영화 검색 결과 페이지네이션 (이전, 다음 버튼) 기능 적용
 
 1. 
 
@@ -165,31 +286,33 @@ MoovDa에서는 영화 제목, 감독, 배우, 장르 등 다양한 정보를 �
 
 1. Movie
 
-    * OPEN API 이용하여 영화 데이터 DB 저장
-    * 영화 데이터 이용하여 영화 상세 페이지 구현
-    * 장르, 나라, 연령, 별점 필터를 이용한 영화 검색 기능 구현(QueryDSL)
+    * OPEN API 이용하여 영화 데이터 DB 저장 <[Go To Notion | About Thread](https://heathered-creek-b2a.notion.site/Thread-295e8ea37cd948999368418246dd3321?pvs=4)>
+    * 영화 상세 페이지 구현
+    * 장르, 나라, 연령, 별점 필터를 이용한 영화 검색 기능 구현(Querydsl)
     * 메인 페이지 구현, GET 요청시 랜덤으로 영화 10개 응답    
 
 2. Comment
 
    * 코멘트와 별점 기능 구현
-   * 토큰을 이용하여 인증된 멤버만 수정, 삭제 가능
+   * 코멘트 좋아요 기능 구현
 
 3. Watch
 
    * 보고 싶은 영화 기능 구현
    * 코멘트 작성 시 본 영화에 추가
-   * Mypage에서 볼 영화, 본 영화 리스트 기능 구현
+   * 마이 페이지 볼 영화, 본 영화 리스트
 
 4. Deployment
 
-   * AWS EC2, RDS(MySQL) 세팅
-   * 로드밸런서를 이용하여 Scale-out 적용 <[Go To Notion | Record](https://heathered-creek-b2a.notion.site/AWS-Load-Balancer-d1ae72550d6a4248971d141fe56e2a64?pvs=4)>
+   * 서버 배포(AWS EC2(Ubuntu), RDS(MySQL))
+   * Load Balancer, ROUTE 53, ACM을 이용하여 HTTPS 요청 허용
+   * Load Balancer를 이용하여 Scale-Out 적용 <[Go To Notion | Record](https://heathered-creek-b2a.notion.site/AWS-Load-Balancer-d1ae72550d6a4248971d141fe56e2a64?pvs=4)>
 
 5. Documentation
    
     * Git Wiki 작성 <[Go To Wiki | Record](https://github.com/codestates-seb/seb44_main_020/wiki)>
     * README 작성
+
 
 </details>
 <br>
@@ -210,8 +333,9 @@ MoovDa에서는 영화 제목, 감독, 배우, 장르 등 다양한 정보를 �
 
  <b>Works</b> : 
 
-1. Member
+1. Member CRUD
 	* 로그인 후 DB에 멤버 정보 저장
+	* 마이페이지에서 회원 탈퇴 가능	 
 
 2. JWT 토큰
 	* JWT ACCESS TOKEN 발행
@@ -293,7 +417,7 @@ MoovDa에서는 영화 제목, 감독, 배우, 장르 등 다양한 정보를 �
 <img src="https://img.shields.io/badge/Spring%20Security-339933?style=flat-square&logo=springsecurity&logoColor=white" height="30" /> <br>
 <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" height="30" />
 <img src="https://img.shields.io/badge/OAuth2.0-2C2255?style=flat-square&logo=google&logoColor=white" height="30" />
-<img src="https://img.shields.io/badge/QueryDSL-00BFFF?style=flat-square&logo=qualcomm&logoColor=white" height="30" />
+<img src="https://img.shields.io/badge/Querydsl-00BFFF?style=flat-square&logo=qualcomm&logoColor=white" height="30" />
 
 
 

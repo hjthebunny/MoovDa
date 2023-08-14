@@ -11,6 +11,7 @@ import com.moovda_project.moovda.module.movie.entity.Movie;
 import com.moovda_project.moovda.module.genre.entity.MovieGenre;
 import com.moovda_project.moovda.module.staff.entity.MovieStaff;
 import org.mapstruct.Mapper;
+import org.springframework.data.domain.Page;
 
 import java.util.Collections;
 import java.util.Comparator;
@@ -19,21 +20,7 @@ import java.util.stream.Collectors;
 
 @Mapper(componentModel = "spring")
 public interface MovieMapper {
-      default MovieResponseDto movieToMovieResponseDto(Movie movie,int page,int pageSize) {
-
-          // 페이지네이션 시작
-          List<CommentResponseDto> comments = commentToCommentResponseDto(movie.getComments());
-          int totalComments = comments.size();
-          int startIndex = (page - 1) * pageSize;
-          int endIndex = Math.min(startIndex + pageSize, totalComments);
-          List<CommentResponseDto> pagedComments = comments.subList(startIndex, endIndex);
-          // 페이지네이션 끝
-
-          PageDto pageDto = PageDto.builder()
-                  .currentPage(page)
-                  .pageSize(pageSize)
-                  .total(totalComments)
-                  .build();
+      default MovieResponseDto movieToMovieResponseDto(Movie movie, Page<Comment> commentPage) {
 
 
           MovieResponseDto movieResponseDto = MovieResponseDto.builder()
@@ -46,55 +33,14 @@ public interface MovieMapper {
                   .starAvg(movie.getStarAvg())
                   .genre(movieGenresToGenreResponseDto(movie.getMovieGenres()))
                   .staff(movieStaffToStaffResponseDto(movie.getMovieStaffs()))
-                  .comments(pagedComments)
-                  .pageInfo(pageDto)
+                  .comments(commentToCommentResponseDto(commentPage.getContent()))
+                  .pageInfo(getPageDto(commentPage))
                   .openingDate(movie.getOpeningDate())
                   .build();
 
           return movieResponseDto;
       }
-
-      default PagedMovieFilterResponseDto moviesToPagedMovieFilterResponseDto(List<Movie> movies, int page, int pageSize) {
-
-          // 페이지네이션 시작
-          List<MovieFilterResponseDto> movieFilterResponseDtos = moviesToMovieFilterResponseDtos(movies);
-          int totalMovies = movieFilterResponseDtos.size();
-          int startIndex = (page - 1) * pageSize;
-          int endIndex = Math.min(startIndex + pageSize, totalMovies);
-          List<MovieFilterResponseDto> pageMovies = movieFilterResponseDtos.subList(startIndex,endIndex);
-          // 페이지네이션 끝
-
-          PageDto pageInfo = PageDto.builder()
-                  .currentPage(page)
-                  .total(totalMovies)
-                  .pageSize(pageSize)
-                  .build();
-
-
-          PagedMovieFilterResponseDto pagedMovieFilterResponseDto = PagedMovieFilterResponseDto.builder()
-                  .movies(pageMovies)
-                  .pageInfo(pageInfo)
-                  .build();
-
-
-          return pagedMovieFilterResponseDto;
-      }
-
-      private List<MovieFilterResponseDto> moviesToMovieFilterResponseDtos(List<Movie> movies) {
-          List<MovieFilterResponseDto> movieFilterResponseDtos = movies.stream()
-                  .map(movie -> MovieFilterResponseDto.builder()
-                          .movieId(movie.getMovieId())
-                          .title(movie.getTitle())
-                          .poster(movie.getPoster())
-                          .prodYear(movie.getOpeningDate())
-                          .starAvg(movie.getStarAvg())
-                          .build())
-                  .collect(Collectors.toList());
-
-          return movieFilterResponseDtos;
-      }
-
-      default List<GenreResponseDto> movieGenresToGenreResponseDto(List<MovieGenre> movieGenres) {
+    default List<GenreResponseDto> movieGenresToGenreResponseDto(List<MovieGenre> movieGenres) {
           List<GenreResponseDto> genreResponseDtos = movieGenres.stream()
                   .map(movieGenre -> GenreResponseDto.builder()
                           .name(movieGenre.getGenre().getName())
@@ -136,8 +82,6 @@ public interface MovieMapper {
 
           return result;
       }
-
-
       default List<MovieMainResponseDto> moviesToMovieMainResponseDto(List<Movie> movies) {
           List<MovieMainResponseDto> movieMainResponseDtos = movies.stream()
                   .map(movie -> MovieMainResponseDto.builder()
@@ -148,6 +92,15 @@ public interface MovieMapper {
 
           return movieMainResponseDtos;
       }
+
+    private PageDto getPageDto(Page<Comment> commentPage) {
+        PageDto pageDto = PageDto.builder()
+                .currentPage(commentPage.getNumber()+1)
+                .pageSize(commentPage.getSize())
+                .total(commentPage.getTotalElements())
+                .build();
+        return pageDto;
+    }
 
 
 }

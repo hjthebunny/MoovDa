@@ -12,6 +12,8 @@ import com.moovda_project.moovda.module.watch.repository.ToWatchRepository;
 import com.moovda_project.moovda.module.movie.service.MovieService;
 import com.moovda_project.moovda.module.watch.service.WatchedService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -51,7 +53,10 @@ public class CommentService {
 
        checkValidatedMember(memberId,findComment);  // 인증된 멤버인지 확인
 
-       findComment.updateComment(comment.getContent(),comment.getStar());
+        Optional.ofNullable(comment.getContent())
+                .ifPresent(content -> findComment.setContent(content));
+        Optional.ofNullable(comment.getStar())
+                .ifPresent(star -> findComment.setStar(star));
 
        Comment updatedComment = commentRepository.save(findComment);
 
@@ -59,7 +64,7 @@ public class CommentService {
 
        updateStarAvg(movie);  // 평균 별점 업데이트
 
-       updateWatched(updatedComment.getMovie(),updatedComment.getMember(),updatedComment);
+       updateWatched(updatedComment.getMovie(),updatedComment.getMember(),updatedComment); // 본 영화 업데이트
 
        return updatedComment;
     }
@@ -100,7 +105,7 @@ public class CommentService {
 
              roundedStar = Double.parseDouble(String.format("%.1f", averageStar)); // 소수점 둘째자리에서 반올림
         }  else {
-             roundedStar = 0.0;
+             roundedStar = 0.0; // 코멘트 삭제 시 코멘트 수가 0이면 0.0으로 초기화
         }
 
             movie.setStarAvg(roundedStar);
@@ -151,5 +156,9 @@ public class CommentService {
          if(toWatchRepository.findByMemberAndMovie(member,movie).isPresent()) {
              toWatchRepository.deleteByMemberAndMovie(member,movie);
          }
+    }
+
+    public Page<Comment> findCommentsByMovie(Movie movie, Pageable pageable) {
+        return commentRepository.findByMovie(movie,pageable);
     }
 }
