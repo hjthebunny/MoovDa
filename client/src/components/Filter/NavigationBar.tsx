@@ -10,7 +10,6 @@ interface Props {
   handleGenreClick: (genre: string) => void;
   handleCountryClick: (country: string) => void;
   handleStartingStarClick: (star: number) => void;
-  handleEndingStarClick: (star: number) => void;
   handleRatingClick: (rating: string) => void;
   genreDropdownOpen: boolean;
   countryDropdownOpen: boolean;
@@ -19,7 +18,6 @@ interface Props {
   selectedGenre: string | null;
   selectedCountry: string | null;
   startStarAvg: number | null;
-  endStarAvg: number | null;
   selectedRating: string | null;
 }
 
