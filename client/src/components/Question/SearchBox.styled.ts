@@ -103,7 +103,6 @@ export const ButtonBox = styled.div`
 export const Button = styled.button`
   padding: 12px 24px;
   border-radius: 4px;
-  width: 100px;
   background-color: #e1e1e1;
   color: black;
   &:hover {
