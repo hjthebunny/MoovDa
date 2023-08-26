@@ -280,7 +280,7 @@ MoovDa에서는 영화 제목, 감독, 배우, 장르 등 다양한 정보를 �
 
  <b>Position</b> : Backend
 
- <b>Stack</b> : Spring Boot, Spring Data JPA, EC2, RDS, MySQL, QueryDSL
+ <b>Stack</b> : Spring Boot, JPA, EC2, RDS, MySQL, Querydsl
 
  <b>Works</b> : 
 
@@ -289,7 +289,7 @@ MoovDa에서는 영화 제목, 감독, 배우, 장르 등 다양한 정보를 �
     * OPEN API 이용하여 영화 데이터 DB 저장 <[Go To Notion | About Thread](https://heathered-creek-b2a.notion.site/Thread-295e8ea37cd948999368418246dd3321?pvs=4)>
     * 영화 상세 페이지 구현
     * 장르, 나라, 연령, 별점 필터를 이용한 영화 검색 기능 구현(Querydsl)
-    * 메인 페이지 구현, GET 요청시 랜덤으로 영화 10개 응답    
+    * 메인 페이지 구현, GET 요청 시 랜덤으로 영화 10개 응답
 
 2. Comment
 
@@ -305,14 +305,17 @@ MoovDa에서는 영화 제목, 감독, 배우, 장르 등 다양한 정보를 �
 4. Deployment
 
    * 서버 배포(AWS EC2(Ubuntu), RDS(MySQL))
-   * Load Balancer, ROUTE 53, ACM을 이용하여 HTTPS 요청 허용
+   * Load Balancer를 이용하여 HTTPS 요청 허용
    * Load Balancer를 이용하여 Scale-Out 적용 <[Go To Notion | Record](https://heathered-creek-b2a.notion.site/AWS-Load-Balancer-d1ae72550d6a4248971d141fe56e2a64?pvs=4)>
 
 5. Documentation
    
     * Git Wiki 작성 <[Go To Wiki | Record](https://github.com/codestates-seb/seb44_main_020/wiki)>
     * README 작성
-
+    * Scale-Out과 Load Balancer <[Go To Notion | Record](https://heathered-creek-b2a.notion.site/Scale-Out-Load-Balancer-d1ae72550d6a4248971d141fe56e2a64)>
+    * Thread에 대한 이해와 문제 해결 <[Go To Notion | Record](https://heathered-creek-b2a.notion.site/Thread-295e8ea37cd948999368418246dd3321)>
+    * Stream API와 for문 <[Go To Notion | Record](https://heathered-creek-b2a.notion.site/Stream-API-for-c936932b451a40f2bfe114389388a5ff?pvs=4)>
+    * DB Read-Write <[Go To Notion | Record](https://heathered-creek-b2a.notion.site/DB-Read-Write-99bceea727784288a510bfe70d012e95?pvs=4)>
 
 </details>
 <br>
