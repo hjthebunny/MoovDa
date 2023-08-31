@@ -270,7 +270,7 @@ MoovDa에서는 영화 제목, 감독, 배우, 장르 등 다양한 정보를 �
 현실은 그렇지 않았습니다. 초기에 기획 단계에서 왜 충분히 시간을 투자해야 하는지, 프로젝트 처음부터 끝까지 문서화가 왜 중요한지 깨달았습니다. 개발자에 대해 얘기할 때 소통이라는 키워드가
 빠지지 않는데, 이전에는 크게 와닿지 않았으나, 프로젝트를 진행하면서 프론트엔드 팀원들과 백엔드 팀원들 모두 소통할 일이 정말 많았고 의견 차이도 종종 있어서 서로 소통하며 해결한 경우도 있습니다.
 아쉬운 점이 있다면, 코드 리뷰입니다. 내가 원하는 기능은 동작하는데 이 코드가 좋은 코드인지에 대한 고민이 항상 있었고 마땅히 물어볼 사람이나 여유가 없었습니다. 이 부분에 있어서 공부가 필요할 것 같습니다.
-짧다면 짧고, 길다면 긴 기간동안 좋은 팀원들과 함께 프로젝트를 진행하여 정말 많은 것을 배웠습니다.
+짧다면 짧고, 길다면 긴 기간 동안 좋은 팀원들과 함께 프로젝트를 진행하여 정말 많은 것을 배웠습니다.
  
 
 <details>
@@ -305,7 +305,7 @@ MoovDa에서는 영화 제목, 감독, 배우, 장르 등 다양한 정보를 �
 4. Deployment
 
    * 서버 배포(AWS EC2(Ubuntu), RDS(MySQL))
-   * Load Balancer를 이용하여 HTTPS 요청 허용
+   * Load Balancer를 이용하여 HTTPS 적용
    * Load Balancer를 이용하여 Scale-Out 적용 <[Go To Notion | Scale-Out과 Load Balancer](https://heathered-creek-b2a.notion.site/AWS-Load-Balancer-d1ae72550d6a4248971d141fe56e2a64?pvs=4)>
 
 5. Documentation
@@ -315,8 +315,7 @@ MoovDa에서는 영화 제목, 감독, 배우, 장르 등 다양한 정보를 �
     * Scale-Out과 Load Balancer <[Go To Notion | Record](https://heathered-creek-b2a.notion.site/Scale-Out-Load-Balancer-d1ae72550d6a4248971d141fe56e2a64)>
     * Thread에 대한 이해와 문제 해결 <[Go To Notion | Record](https://heathered-creek-b2a.notion.site/Thread-295e8ea37cd948999368418246dd3321)>
     * Stream API와 for문 <[Go To Notion | Record](https://heathered-creek-b2a.notion.site/Stream-API-for-c936932b451a40f2bfe114389388a5ff?pvs=4)>
-    * DB Read-Write <[Go To Notion | Record](https://heathered-creek-b2a.notion.site/DB-Read-Write-99bceea727784288a510bfe70d012e95?pvs=4)>
-
+    * Index와 DB Replication <[Go To Notion | Record](https://heathered-creek-b2a.notion.site/DB-Read-Write-99bceea727784288a510bfe70d012e95?pvs=4)>
 </details>
 <br>
 
