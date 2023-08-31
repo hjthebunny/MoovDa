@@ -286,7 +286,7 @@ MoovDa에서는 영화 제목, 감독, 배우, 장르 등 다양한 정보를 �
 
 1. Movie
 
-    * OPEN API 이용하여 영화 데이터 DB 저장 <[Go To Notion | About Thread](https://heathered-creek-b2a.notion.site/Thread-295e8ea37cd948999368418246dd3321?pvs=4)>
+    * OPEN API 이용하여 영화 데이터 저장 <[Go To Notion | Thread에 대한 이해와 문제 해결](https://heathered-creek-b2a.notion.site/Thread-295e8ea37cd948999368418246dd3321?pvs=4)>
     * 영화 상세 페이지 구현
     * 장르, 나라, 연령, 별점 필터를 이용한 영화 검색 기능 구현(Querydsl)
     * 메인 페이지 구현, GET 요청 시 랜덤으로 영화 10개 응답
@@ -306,7 +306,7 @@ MoovDa에서는 영화 제목, 감독, 배우, 장르 등 다양한 정보를 �
 
    * 서버 배포(AWS EC2(Ubuntu), RDS(MySQL))
    * Load Balancer를 이용하여 HTTPS 요청 허용
-   * Load Balancer를 이용하여 Scale-Out 적용 <[Go To Notion | Record](https://heathered-creek-b2a.notion.site/AWS-Load-Balancer-d1ae72550d6a4248971d141fe56e2a64?pvs=4)>
+   * Load Balancer를 이용하여 Scale-Out 적용 <[Go To Notion | Scale-Out과 Load Balancer](https://heathered-creek-b2a.notion.site/AWS-Load-Balancer-d1ae72550d6a4248971d141fe56e2a64?pvs=4)>
 
 5. Documentation
    
