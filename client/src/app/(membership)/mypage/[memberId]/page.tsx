@@ -95,7 +95,6 @@ export default function MyPage() {
 
   return (
     <S.Wrapper>
-      {userId === memberIdtoNumber ? <S.PageTitle>my page</S.PageTitle> : ''}
       <S.Container>
         <S.Nickname>{data?.nickname} 님의 리스트</S.Nickname>
         <S.SectionWrapper>

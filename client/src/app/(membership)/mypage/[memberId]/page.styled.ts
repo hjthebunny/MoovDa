@@ -4,10 +4,6 @@ import styled from 'styled-components';
 export const Wrapper=styled.div`
 margin:0px 90px;`;
 
-export const PageTitle=styled.div`
-font-size: 15px;
-color:#ffffff;
-`;
 export const Container=styled.div`
 margin-top: 30px ;
 background-color:#0F204E;
