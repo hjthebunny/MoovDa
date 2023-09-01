@@ -14,7 +14,7 @@ width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 40px;
+    margin-left: 38px;
 }
 .slick-prev{
     left:6px;

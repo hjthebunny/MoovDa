@@ -4,8 +4,8 @@ import styled from 'styled-components';
 export const Wrapper=styled.div`
 margin:0px 90px;`;
 
-export const Container=styled.div`
-margin-top: 30px ;
+export const Container = styled.div`
+margin: 30px 0 50px 0 ;
 background-color:#0F204E;
 border-radius:20px;
 display:flex;
