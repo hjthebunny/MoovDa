@@ -280,7 +280,7 @@ MoovDa에서는 영화 제목, 감독, 배우, 장르 등 다양한 정보를 �
 
  <b>Position</b> : Backend
 
- <b>Stack</b> : Spring Boot, JPA, EC2, RDS, MySQL, Querydsl
+ <b>Stack</b> : Spring Boot, Spring Data JPA, EC2, RDS, MySQL, Querydsl
 
  <b>Works</b> : 
 
