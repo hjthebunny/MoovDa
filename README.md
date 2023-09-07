@@ -431,7 +431,7 @@ MoovDa에서는 영화 제목, 감독, 배우, 장르 등 다양한 정보를 �
 <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" height="30" />  <br>
 <img src="https://img.shields.io/badge/RDS-527FFF?style=flat-square&logo=amazonrds&logoColor=white" height="30" />
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" height="30" />
-<img src="https://img.shields.io/badge/Route53-FF9900?style=flat-square&logo=amazonaws&logoColor=white" height="30" />
+
 
 
 <br><br>
