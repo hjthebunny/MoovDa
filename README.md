@@ -14,7 +14,7 @@ MoovDa에서는 영화 제목, 감독, 배우, 장르 등 다양한 정보를 �
 ### [Go To Wiki | Project Record](https://github.com/codestates-seb/seb44_main_020/wiki) <br><br><br>
 
 
-## MoovDa Page View <br>
+## MoovDa Page View 
 
 <br>
 
@@ -81,11 +81,11 @@ MoovDa에서는 영화 제목, 감독, 배우, 장르 등 다양한 정보를 �
 
 <br><br>
 
-## Team MoovDa <br>
+## Team MoovDa
 
 
 
-### Frontend <br>
+### Frontend 
 
 - <b>전수빈</b> <br>
 `잘 할 수 있을까?`
@@ -261,7 +261,7 @@ MoovDa에서는 영화 제목, 감독, 배우, 장르 등 다양한 정보를 �
 
 <br>
 
-### Backend <br>
+### Backend 
 
 
 - <b>김연우</b> <br>
@@ -403,7 +403,7 @@ MoovDa에서는 영화 제목, 감독, 배우, 장르 등 다양한 정보를 �
  
 <br><br><br>
 
-## Technologies used <br>
+## Technologies used 
 
 ### Frontend
 
