@@ -10,7 +10,7 @@ MoovDa에서는 영화 제목, 감독, 배우, 장르 등 다양한 정보를 �
 다양한 영화들을 살펴보고, 다른 사용자들과 의견을 공유하여 영화에 대한 새로운 관점을 얻어보세요.  <br>
 좋아하는 영화, 추천하고 싶은 작품, 특별한 감동을 준 영화 등 다양한 주제로 이야기를 나누면서 즐거운 시간 보내시기 바랍니다.</b> <br> <br> 
 
-### [Go To MoovDa | Project Result](https://moovda.vercel.app/) <br>
+### [Go To MoovDa | Project Result](https://moovda.vercel.app/) 
 ### [Go To Wiki | Project Record](https://github.com/codestates-seb/seb44_main_020/wiki) <br>
 
 
