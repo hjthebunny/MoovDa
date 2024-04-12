@@ -27,13 +27,13 @@ MoovDa는 영화에 대한 평가와 리뷰를 자유롭게 공유하는 곳입�
 ----------------
 <div align="center">
 
-**1. 메인페이지**
+**1 메인페이지**
 
 ![메인페이지](https://github.com/codestates-seb/seb44_main_020/assets/64067205/4bf7259f-fbcd-4919-93f4-c3ff6895241e)
 
 <br>
 
-2. <b>Login</b>
+**2 Login**
 
 ![로그인 앤 마이페이지](https://github.com/codestates-seb/seb44_main_020/assets/64067205/e12ee450-0601-4988-b086-3ad2f15fd1e8)
 
@@ -41,21 +41,21 @@ MoovDa는 영화에 대한 평가와 리뷰를 자유롭게 공유하는 곳입�
 
 
 
-3. <b>Movie Search</b>
+**3 Movie Search**
 
 ![영화 필터 검색](https://github.com/codestates-seb/seb44_main_020/assets/64067205/f9a857d5-f3bb-4232-973d-08058432df4d)
 
 <br>
 
 
-- <b>Movie Detail</b>
+**4 Movie Detail**
 
 ![영화 상세](https://github.com/codestates-seb/seb44_main_020/assets/64067205/5e2a6cab-9b0c-4a0e-b8b8-acdb62529d7d)
 
 <br>
 
 
-- <b>Comment</b>
+**5 Comment**
 
 ![코멘트 작성](https://github.com/codestates-seb/seb44_main_020/assets/64067205/98bd7004-4b82-4811-a884-371f96a86195)
 
