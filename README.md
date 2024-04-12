@@ -3,7 +3,7 @@
 
 담당 구현 코드 <br>
 -------------------
-- [MainPoster(영화포스터 컴포넌트)](https://github.com/hjthebunny/MoovDa/tree/main/client/src/components/MainPoster)
+- [MainPoster(영화포스터 컴포넌트)](https://github.com/hjthebunny/MoovDa/tree/main/client/src/components/MainPoster)
 - [메인페이지](https://github.com/hjthebunny/MoovDa/blob/main/client/src/app/page.tsx)
     * [메인캐러셀 컴포넌트](https://github.com/hjthebunny/MoovDa/tree/main/client/src/components/MainCarousel)
 - [영화상세페이지](https://github.com/hjthebunny/MoovDa/tree/main/client/src/app/movies/%5BmovieId%5D)
