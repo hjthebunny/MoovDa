@@ -1,4 +1,4 @@
-본인 담당 구현 기능
+
 [메인페이지] (https://github.com/hjthebunny/MoovDa/blob/main/client/src/app/page.tsx)
 
 
