@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=soft&color=(#01123d)&fontColor=(#ffffff)&height=150&section=header&text=MoovDa&fontSize=60)
+![header](https://capsule-render.vercel.app/api?type=soft&color=01123d&fontColor=ffffff&height=150&section=header&text=MoovDa&fontSize=60)
 
 
 담당 구현 코드 <br>
