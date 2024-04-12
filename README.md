@@ -25,7 +25,7 @@ MoovDa는 영화에 대한 평가와 리뷰를 자유롭게 공유하는 곳입�
 <br><br>
 주요 기능 preview
 ----------------
-<div text-align=center>
+<div text-align="center">
 <br>
 
 1. <b>메인페이지</b>
