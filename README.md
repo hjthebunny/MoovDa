@@ -8,9 +8,9 @@
     * [메인캐러셀 컴포넌트](https://github.com/hjthebunny/MoovDa/tree/main/client/src/components/MainCarousel)
 - [영화상세페이지](https://github.com/hjthebunny/MoovDa/tree/main/client/src/app/movies/%5BmovieId%5D)
     * Comment
-        *[CommentBox](https://github.com/hjthebunny/MoovDa/tree/main/client/src/components/CommentBox)
-        *[CommentModal](https://github.com/hjthebunny/MoovDa/tree/main/client/src/components/CommentModal)
-        *[Starrate](https://github.com/hjthebunny/MoovDa/tree/main/client/src/components/Starrate)
+        - [CommentBox](https://github.com/hjthebunny/MoovDa/tree/main/client/src/components/CommentBox)
+        - [CommentModal](https://github.com/hjthebunny/MoovDa/tree/main/client/src/components/CommentModal)
+        - [Starrate](https://github.com/hjthebunny/MoovDa/tree/main/client/src/components/Starrate)
    * [StaffBox](https://github.com/hjthebunny/MoovDa/blob/main/client/src/components/StaffBox/StaffBox.tsx)
 - [마이페이지](https://github.com/hjthebunny/MoovDa/tree/main/client/src/app/(membership)/mypage/%5BmemberId%5D)
 -    *[마이캐러셀 컴포넌트](https://github.com/hjthebunny/MoovDa/blob/main/client/src/components/MyCarousel/MyCarousel.tsx)
