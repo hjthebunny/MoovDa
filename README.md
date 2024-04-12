@@ -1,5 +1,11 @@
+본인 담당 구현 기능
+[메인페이지] (https://github.com/hjthebunny/MoovDa/blob/main/client/src/app/page.tsx)
 
-![ㄹㅇ로고](https://github.com/codestates-seb/seb44_main_020/assets/64067205/dcfa15c6-273e-4cd5-9827-d433a4239699)
+
+
+### 세상의 영화가 다 있는 뭅다에서 묻다! 
+### 영화 리뷰 및 추천 서비스 MoovDa 🍿🍿
+
 <b>안녕하세요. <br>
 
 MoovDa는 영화에 대한 평가와 리뷰를 자유롭게 공유하는 곳입니다.  <br>다른 사용자들의 의견을 듣고, 자신만의 영화 리스트를 만들어보세요. <br><br>
