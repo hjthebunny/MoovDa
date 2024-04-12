@@ -22,10 +22,6 @@ MoovDa는 영화에 대한 평가와 리뷰를 자유롭게 공유하는 곳입�
 - [MyPage](https://github.com/hjthebunny/MoovDa/tree/main/client/src/app/(membership)/mypage/%5BmemberId%5D)
 - [MyCarousel](https://github.com/hjthebunny/MoovDa/blob/main/client/src/components/MyCarousel/MyCarousel.tsx)
       
-  
-
-### [Go To MoovDa | Project Result](https://moovda.vercel.app/) 
-### [Go To Wiki | Project Record](https://github.com/codestates-seb/seb44_main_020/wiki) <br>
 
 
 ## MoovDa Page View 
