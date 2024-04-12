@@ -2,9 +2,20 @@
 
 
 담당 구현 코드 <br>
+-------------------
+- [영화포스터 컴포넌트](https://github.com/hjthebunny/MoovDa/tree/main/client/src/components/MainPoster)
 - [메인페이지](https://github.com/hjthebunny/MoovDa/blob/main/client/src/app/page.tsx)
-    * [영화상세페이지]
-    * [마이페이지]
+    * [메인캐러셀 컴포넌트](https://github.com/hjthebunny/MoovDa/tree/main/client/src/components/MainCarousel)
+- [영화상세페이지](https://github.com/hjthebunny/MoovDa/tree/main/client/src/app/movies/%5BmovieId%5D)
+    * Comment
+        *[CommentBox](https://github.com/hjthebunny/MoovDa/tree/main/client/src/components/CommentBox)
+        *[CommentModal](https://github.com/hjthebunny/MoovDa/tree/main/client/src/components/CommentModal)
+        *[Starrate](https://github.com/hjthebunny/MoovDa/tree/main/client/src/components/Starrate)
+   * [StaffBox](https://github.com/hjthebunny/MoovDa/blob/main/client/src/components/StaffBox/StaffBox.tsx)
+- [마이페이지](https://github.com/hjthebunny/MoovDa/tree/main/client/src/app/(membership)/mypage/%5BmemberId%5D)
+-    *[마이캐러셀 컴포넌트](https://github.com/hjthebunny/MoovDa/blob/main/client/src/components/MyCarousel/MyCarousel.tsx)
+      
+  
 
 
 ### 세상의 영화가 다 있는 뭅다에서 묻다! 
