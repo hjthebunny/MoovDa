@@ -4,8 +4,8 @@
 담당 구현 코드 <br>
 ````
 - [메인페이지](https://github.com/hjthebunny/MoovDa/blob/main/client/src/app/page.tsx)
-* [영화상세페이지]
-* [마이페이지]
+- [영화상세페이지]
+- [마이페이지]
 ````
 
 
