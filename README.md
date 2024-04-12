@@ -13,7 +13,7 @@
         - [Starrate](https://github.com/hjthebunny/MoovDa/tree/main/client/src/components/Starrate)
    * [StaffBox](https://github.com/hjthebunny/MoovDa/blob/main/client/src/components/StaffBox/StaffBox.tsx)
 - [MyPage](https://github.com/hjthebunny/MoovDa/tree/main/client/src/app/(membership)/mypage/%5BmemberId%5D)
--    *[MyCarousel](https://github.com/hjthebunny/MoovDa/blob/main/client/src/components/MyCarousel/MyCarousel.tsx)
+- [MyCarousel](https://github.com/hjthebunny/MoovDa/blob/main/client/src/components/MyCarousel/MyCarousel.tsx)
       
   
 
