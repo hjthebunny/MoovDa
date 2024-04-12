@@ -1,6 +1,8 @@
 ![header](https://capsule-render.vercel.app/api?type=soft&color=01123d&fontColor=ffffff&height=150&section=header&text=MoovDa&fontSize=60)
-
-
+````
+MoovDa는 영화에 대한 평가와 리뷰를 자유롭게 공유하는 곳입니다.
+다른 사용자들의 의견을 듣고, 자신만의 영화 리스트를 만들어보세요.
+````
 👩‍💻 담당 구현 코드 <br>
 -------------------
 - [MainPoster(영화포스터 컴포넌트)](https://github.com/hjthebunny/MoovDa/tree/main/client/src/components/MainPoster)
@@ -17,9 +19,6 @@
       
   
 
-
-### 세상의 영화가 다 있는 뭅다에서 묻다! 
-### 영화 리뷰 및 추천 서비스 MoovDa 🍿🍿
 
 <b>안녕하세요. <br>
 
