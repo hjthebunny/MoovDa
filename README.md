@@ -7,7 +7,7 @@ MoovDa는 영화에 대한 평가와 리뷰를 자유롭게 공유하는 곳입�
 다양한 영화들을 살펴보고 다른 사용자들과 의견을 공유하여 영화에 대한 새로운 관점을 얻어보세요.
 ````
 
-👩‍💻 담당 구현 코드 <br>
+👩‍💻 담당 구현 코드 
 -------------------
 - [MainPoster(영화포스터 컴포넌트)](https://github.com/hjthebunny/MoovDa/tree/main/client/src/components/MainPoster)
 - [MainPage](https://github.com/hjthebunny/MoovDa/blob/main/client/src/app/page.tsx)
@@ -22,8 +22,9 @@ MoovDa는 영화에 대한 평가와 리뷰를 자유롭게 공유하는 곳입�
 - [MyCarousel](https://github.com/hjthebunny/MoovDa/blob/main/client/src/components/MyCarousel/MyCarousel.tsx)
       
 
-
-# 주요 기능 preview
+<br><br>
+주요 기능 preview
+----------------
 
 <br>
 
