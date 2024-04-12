@@ -1,5 +1,5 @@
 
-[메인페이지] (https://github.com/hjthebunny/MoovDa/blob/main/client/src/app/page.tsx)
+[메인페이지](https://github.com/hjthebunny/MoovDa/blob/main/client/src/app/page.tsx)
 
 
 
