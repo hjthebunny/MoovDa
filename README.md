@@ -27,7 +27,7 @@ MoovDa는 영화에 대한 평가와 리뷰를 자유롭게 공유하는 곳입�
 ----------------
 <div align="center">
 
-**1 메인페이지**
+<span style='background-color:'#fff5b1'>**1 메인페이지**</span>
 
 ![메인페이지](https://github.com/codestates-seb/seb44_main_020/assets/64067205/4bf7259f-fbcd-4919-93f4-c3ff6895241e)
 
